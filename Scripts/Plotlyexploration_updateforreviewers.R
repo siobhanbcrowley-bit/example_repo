@@ -6,8 +6,8 @@ library(ggplot2)
 
 
 #Read in data
-data= read.csv(file="Data_for_Plotly.csv", header=T)
-movements = read.csv(file="Movements_for_plotly.csv", header=T)
+data= read.csv(file="Data/Data_for_Plotly.csv", header=T)
+movements = read.csv(file="Data/Movements_for_plotly.csv", header=T)
 
 
 #Ggplot
