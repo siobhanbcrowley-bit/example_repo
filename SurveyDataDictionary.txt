@@ -1,0 +1,406 @@
+
+ResponseID 	 ResponseID 
+
+ResponseSet 	 ResponseSet 
+
+Name 	 Name 
+
+ExternalDataReference 	 ExternalDataReference 
+
+EmailAddress 	 Email 
+
+IPAddress 	 IPAddress 
+
+Status 	 Status 
+
+StartDate 	 StartDate 
+
+EndDate 	 EndDate 
+
+Finished 	 Finished 
+
+consent 	 Dear expert,    The University of Minnesota?s Center for Animal Health and Food  Safety is worki...
+	 1 = I have read the above information. I have asked questions and have received answers. I consent to participate in the study. 
+	 2 = I do not consent to participate in the study. 
+
+dem1 	 What sector of the swine industry do you most identify yourself with?
+	 1 = Swine producer 
+		—> Answer ALL demographic Questions
+	 2 = Harvest (pork processing and/or packing) Please specify: 
+		—> Go to dem2b, dem7 and then to Disease Risk Questions
+	 3 = Allied industry (e.g. veterinarian, academia, government, feed company, pharmaceutical company, etc.)   Please specify: 
+		—> Go to dem7a, dem9, Disease Risk
+	 4 = Retail and/or distributionPlease specify: 
+		—> Go to Disease Risk section
+
+dem1_TEXT 	 What sector of the swine industry do you most identify yourself with?-TEXT 
+
+dem2 	 How many pigs do you typically care for per day?
+	 1 = < 100 
+	 2 = 100-999 
+	 3 = 1000-2499 
+	 4 = 2500-4999 
+	 5 = 5000-9999 
+	 6 = 10,000 or more 
+
+dem2b 	 How many pigs does your facility process per day?
+	 1 = < 100 
+	 2 = 100-999 
+	 3 = 1000-2499 
+	 4 = 2500-4999 
+	 5 = 5000-9999 
+	 6 = 10,000 or more 
+
+dem3 	 How many pigs do you typically have on the site(s) under  your ownership or management? Please se...
+	 1 = < 100 
+	 2 = 100-999 
+	 3 = 1000-2499 
+	 4 = 2500-4999 
+	 5 = 5000-9999 
+	 6 = 10,000 or more 
+
+dem4 	 Are you a contract producer?
+	 1 = Yes 
+	 2 = No 
+	 3 = Other (please comment) 
+
+dem4_TEXT 	 Are you a contract producer?-TEXT 
+
+dem5 	 Which best describes this pig operation?
+	 1 = Farrow-to-finish 
+	 2 = Wean-to-finish 
+	 3 = Breeding/Farrowing 
+	 4 = Nursery 
+	 5 = Finishing 
+	 6 = Boar Stud 
+	 7 = Other 
+	 8 = Gilt Developer Unit 
+
+dem5_TEXT 	 Which best describes this pig operation?-TEXT 
+
+dem6 	 How many production sites do you currently own and/or manage? Please select one of the following:...
+	 1 = 1 
+	 2 = 2-5 
+	 3 = 6-10 
+	 4 = >10 
+
+dem7 	 Do you currently own and/or manage production or processing in:
+	 1 = Single State 
+	 2 = Multiple States 
+
+dem7a 	 Is your involvement in the swine industry in:
+	 1 = Single State 
+	 2 = Multiple States 
+
+dem7_1_59 	 Please check/select all the region(s) where you currently  own or manage production or processing...-Midwest (Illinois, Indiana, Iowa, Michigan, Minnesota, Missouri, Ohio, Wisconsin) 
+
+dem7_1_60 	 Please check/select all the region(s) where you currently  own or manage production or processing...-Northern Plains (Colorado, Montana, Nebraska, North Dakota, South Dakota, Wyoming) 
+
+dem7_1_61 	 Please check/select all the region(s) where you currently  own or manage production or processing...-Northeast (Connecticut, Delaware, Maine, Maryland, Massachusetts,  New Hampshire, New    Jersey,  New York, Pennsylvania, Rhode Island, Vermont, West Virginia) 
+
+dem7_1_62 	 Please check/select all the region(s) where you currently  own or manage production or processing...-Southeast (Alabama, Arkansas, Florida, Georgia, Kentucky, Louisiana, Mississippi, North   Carolina, South Carolina, Tennessee, Virginia) 
+
+dem7_1_63 	 Please check/select all the region(s) where you currently  own or manage production or processing...-Southern Plains (Kansas, Oklahoma, Texas) 
+
+dem7_1_64 	 Please check/select all the region(s) where you currently  own or manage production or processing...-Pacific Northwest (Idaho, Oregon, Washington) 
+
+dem7_1_65 	 Please check/select all the region(s) where you currently  own or manage production or processing...-Southwest (Arizona, California, Nevada, New Mexico, Utah) 
+
+dem7_1a_59 	 Please check/select all the region(s) where you are  currently involved in the swine industry:-Midwest (Illinois, Indiana, Iowa, Michigan, Minnesota, Missouri, Ohio, Wisconsin) 
+
+dem7_1a_60 	 Please check/select all the region(s) where you are  currently involved in the swine industry:-Northern Plains (Colorado, Montana, Nebraska, North Dakota, South Dakota, Wyoming) 
+
+dem7_1a_61 	 Please check/select all the region(s) where you are  currently involved in the swine industry:-Northeast (Connecticut, Delaware, Maine, Maryland, Massachusetts,  New Hampshire, New    Jersey,  New York, Pennsylvania, Rhode Island, Vermont, West Virginia) 
+
+dem7_1a_62 	 Please check/select all the region(s) where you are  currently involved in the swine industry:-Southeast (Alabama, Arkansas, Florida, Georgia, Kentucky, Louisiana, Mississippi, North   Carolina, South Carolina, Tennessee, Virginia) 
+
+dem7_1a_63 	 Please check/select all the region(s) where you are  currently involved in the swine industry:-Southern Plains (Kansas, Oklahoma, Texas) 
+
+dem7_1a_64 	 Please check/select all the region(s) where you are  currently involved in the swine industry:-Pacific Northwest (Idaho, Oregon, Washington) 
+
+dem7_1a_65 	 Please check/select all the region(s) where you are  currently involved in the swine industry:-Southwest (Arizona, California, Nevada, New Mexico, Utah) 
+
+dem8 	 How often (e.g. daily, weekly, monthly, every 6 months, etc.) do you move pigs off of a productio...
+	 1 = 3 or more times a week 
+	 2 = Twice weekly 
+	 3 = Weekly 
+	 4 = Every 2 to 4 weeks 
+	 5 = Every 2 months 
+	 6 = Every 3-6 months 
+	 7 = Less than every 6 months 
+
+dem9 	 Do you have established biosecurity protocols for live animal site(s) or site visits? 
+	 1 = Yes 
+	 2 = No 
+	 3 = Don't know 
+
+DR_title 	 Disease Risk 
+
+DRtext 	 Please rate the following pork production chain movements for the risk of disease spread using th... 
+
+DR_equip_1 	 Production equipment and feed:-Movement of feed onto production sites
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_equip_2 	 Production equipment and feed:-Movement of supplies onto production sites
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_equip_3 	 Production equipment and feed:-Movement of shared equipment onto production sites
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_equip_4 	 Production equipment and feed:-Movement of contracted or shared livestock trucks onto production sites
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_equip_5 	 Production equipment and feed:-Movement of dedicated livestock trucks among company production sites
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_genetic_1 	 Production genetics:-Movement of replacement gilts and boars into production system isolation
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_genetic_2 	 Production genetics:-Movement of replacement gilts and boars onto production site
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_genetic_3 	 Production genetics:-Movement of semen into a production system (breeding herd)
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DRtext2 	 Please rate the following pork production chain movements for the risk of disease spread using th... 
+
+DR_general_1 	 Production general:-Movement of weaned pigs to offsite nursery, wean to finish, or finishing (single source)
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_general_2 	 Production general:-Movement of weaned pigs to offsite nursery, wean to finish, or finishing (multiple sources)
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_general_3 	 Production general:-Movement of replacement gilts into a sow unit
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_general_4 	 Production general:-Movement of cull sows and boars direct to slaughter
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_general_5 	 Production general:-Movement of off  size and cull pigs, sows and boars to sale barn/buying station
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_general_6 	 Production general:-Movement of off size and cull pigs, sows and boars from sale barn/buying station to slaughter
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_general_7 	 Production general:-Movement of feeder pigs from sale barn to production site
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_general_8 	 Production general:-Movement of dead stock to offsite disposal (landfill, rendering, etc.)
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_general_9 	 Production general:-Movement of manure to field application offsite
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_general_10 	 Production general:-Movement of feeder pigs to finishing (e.g. from nursery to finishing)
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_general_11 	 Production general:-Movement of finishing pigs direct to slaughter
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DRtext3 	 Please rate the following pork production chain movements for the risk of disease spread using th... 
+
+DR_harvest_1 	 Harvest and processing:   -Movement of fresh carcasses to offsite processing
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_harvest_2 	 Harvest and processing:   -Movement of raw inedibles (byproducts) from harvest site to further processing
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_harvest_3 	 Harvest and processing:   - Movement of rendered inedibles from harvest site to further processing
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_harvest_4 	 Harvest and processing:   -Movement of finished products to distributing
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_harvest_5 	 Harvest and processing:   -Movement of fresh products to point of service
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_harvest_6 	 Harvest and processing:   -Movement of ready to eat products to point of service
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_person_1 	 Personnel:-Movement of employees onto, off and/or between production site(s)
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_person_2 	 Personnel:-Movement of routine service providers (e.g. plumbers, electricians, etc.) onto, off and/or between sites
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_person_3 	 Personnel:-Movement of veterinarians onto, off and/or between sites
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_person_4 	 Personnel:-Movement of vaccination crews into, off and/or between sites
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+DR_person_5 	 Personnel:-Movement of commercial crews onto, off and/or between sites (e.g. manure haulers, feed trucks)
+	 1 = No or slight risk  of disease spread 
+	 2 = Low risk  of disease spread 
+	 3 = Some risk  of disease spread 
+	 4 = High risk  of disease spread 
+
+IB_title 	 Impact on Business 
+
+IB_text 	 In the event of a Foot and Mouth Disease (FMD) outbreak in the US, restrictions may be enforced o... 
+
+IB_equip_1 	 Production equipment and feed:-Movement of feed onto production sites 
+
+IB_equip_2 	 Production equipment and feed:-Movement of supplies onto production sites 
+
+IB_equip_3 	 Production equipment and feed:-Movement of shared equipment onto production sites 
+
+IB_equip_4 	 Production equipment and feed:-Movement of contracted or shared livestock trucks onto production sites 
+
+IB_equip_5 	 Production equipment and feed:-Movement of dedicated livestock trucks among company production sites 
+
+IB_genetic_1 	 Production genetics:-Movement of replacement gilts and boars into production system isolation 
+
+IB_genetic_2 	 Production genetics:-Movement of replacement gilts and boars onto production site 
+
+IB_genetic_3 	 Production genetics:-Movement of semen into a production system (breeding herd) 
+
+IB_text2 	 In the event of a Foot and Mouth Disease (FMD) outbreak in the US, restrictions may be enforced o... 
+
+IB_general_1 	 Production general:-Movement of weaned pigs to offsite nursery, wean to finish, or finishing (single source) 
+
+IB_general_2 	 Production general:-Movement of weaned pigs to offsite nursery, wean to finish, or finishing (multiple sources) 
+
+IB_general_3 	 Production general:-Movement of feeder pigs to finishing (e.g. from nursery to finishing) 
+
+IB_general_4 	 Production general:-Movement of cull sows and boars direct to slaughter 
+
+IB_general_5 	 Production general:-Movement of off  size and cull pigs, sows and boars to sale barn/buying station 
+
+IB_general_6 	 Production general:-Movement of off size and cull pigs, sows and boars from sale barn/buying station to slaughter 
+
+IB_general_7 	 Production general:-Movement of feeder pigs from sale barn to production site 
+
+IB_general_8 	 Production general:-Movement of dead stock to offsite disposal (landfill, rendering, etc.) 
+
+IB_general_9 	 Production general:-Movement of manure to field application offsite 
+
+IB_general_10 	 Production general:-Movement of finishing pigs direct to slaughter 
+
+IB_general_11 	 Production general:-Movement of replacement gilts into a sow unit 
+
+IB_text3 	 In the event of a Foot and Mouth Disease (FMD) outbreak in the US, restrictions may be enforced o... 
+
+IB_harvest_1 	 Harvest and processing:-Movement of fresh carcasses to offsite processing 
+
+IB_harvest_2 	 Harvest and processing:-Movement of raw inedibles (byproducts) from harvest site to further processing 
+
+IB_harvest_3 	 Harvest and processing:- Movement of rendered inedibles from harvest site to further processing 
+
+IB_harvest_4 	 Harvest and processing:-Movement of finished products to distributing 
+
+IB_harvest_5 	 Harvest and processing:-Movement of fresh products to point of service 
+
+IB_harvest_6 	 Harvest and processing:-Movement of ready to eat products to point of service 
+
+IB_person_1 	 Personnel:-Movement of employees onto, off and/or between production site(s) 
+
+IB_person_2 	 Personnel:-Movement of routine service providers (e.g. plumbers, electricians, etc.) onto, off and/or between sites 
+
+IB_person_3 	 Personnel:-Movement of veterinarians onto, off and/or between sites 
+
+IB_person_4 	 Personnel:-Movement of vaccination crews into, off and/or between sites 
+
+IB_person_5 	 Personnel:-Movement of commercial crews onto, off and/or between sites (e.g. manure haulers, feed trucks, livestock haulers) 
+
+Comments 	 If you have any other comments or feedback about this survey, please provide it in the box below. 
+
+LocationLatitude 	 LocationLatitude 
+
+LocationLongitude 	 LocationLongitude 
+
+LocationAccuracy 	 LocationAccuracy 
+
+X 	  
+
+TimeTaken 	  
+
+test 	 Time taken on survey in minutes 
+
