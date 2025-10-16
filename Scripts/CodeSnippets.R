@@ -2,6 +2,8 @@
 # Random code snippets 
 ############################
 
+# adding a comment to test GitHub
+
 # Load Packages
 install.packages("pacman")
 pacman::p_load(ggplot2, nlme, mass, dplyr)
