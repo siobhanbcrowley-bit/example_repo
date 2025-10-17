@@ -4,6 +4,8 @@
 
 # adding a comment to test GitHub
 
+# adding comments in VS to test GitHub there
+
 # Load Packages
 install.packages("pacman")
 pacman::p_load(ggplot2, nlme, mass, dplyr)
